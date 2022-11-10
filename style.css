@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/flat-christmas-season-elements-collection_23-2149869120.jpg?w=1060);
+    
+    background-position: 30%;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 8fr;
+    height: 110vh;
+}
+
+.grid-item{
+    
+    text-align: center;
+    
+}
+
+.grid-item-1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: calc(0.8em + 1vw);
+    
+}
+
+.grid-item-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: calc(0.5em + 1vw);
+}
+
+.grid-item-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+#form-box{ 
+    padding: 20px 10px 100px 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    
+    width: 80%;
+    height: 75vh;
+
+    background-color: rgba(240, 248, 255, 0.875);
+    
+    
+}
+
+
+
+label{
+    font-size: calc(1.2em + 1vw);
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 95%;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 95%;
+}
+
+#question{
+    font-size: 20px;
+}
+
+#input-div{
+    text-align: center;
+}
